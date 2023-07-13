@@ -2,7 +2,7 @@ import yfinance as yf
 import json
 import matplotlib.pyplot as plt
 import pendulum
-#test
+
 def main():
     user_ticker = input("Please input stock Ticker: ").upper()
     stock = yf.Ticker(user_ticker)
